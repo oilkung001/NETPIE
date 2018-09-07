@@ -1,0 +1,284 @@
+[
+    {
+        "name": "entomb/slim-json-api",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/entomb/slim-json-api.git",
+            "reference": "c11e001ab98e7df4dcb7b096fb1c9506d21c7e16"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/entomb/slim-json-api/zipball/c11e001ab98e7df4dcb7b096fb1c9506d21c7e16",
+            "reference": "c11e001ab98e7df4dcb7b096fb1c9506d21c7e16",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-06-13 18:16:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "jsonAPI/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Tavares",
+                "email": "the.entomb@gmail.com",
+                "homepage": "https://github.com/entomb",
+                "role": "Developer"
+            }
+        ],
+        "description": "Slim extension to implement fast JSON API's",
+        "homepage": "https://github.com/entomb/slim-json-api",
+        "keywords": [
+            "api",
+            "json",
+            "middleware",
+            "slim",
+            "view"
+        ]
+    },
+    {
+        "name": "slim/slim",
+        "version": "2.6.2",
+        "version_normalized": "2.6.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/slimphp/Slim.git",
+            "reference": "20a02782f76830b67ae56a5c08eb1f563c351a37"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/slimphp/Slim/zipball/20a02782f76830b67ae56a5c08eb1f563c351a37",
+            "reference": "20a02782f76830b67ae56a5c08eb1f563c351a37",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-mcrypt": "Required for HTTP cookie encryption"
+        },
+        "time": "2015-03-08 18:41:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Slim": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josh Lockhart",
+                "email": "info@joshlockhart.com",
+                "homepage": "http://www.joshlockhart.com/"
+            }
+        ],
+        "description": "Slim Framework, a PHP micro framework",
+        "homepage": "http://github.com/codeguy/Slim",
+        "keywords": [
+            "microframework",
+            "rest",
+            "router"
+        ]
+    },
+    {
+        "name": "slim/pdo",
+        "version": "1.9.9",
+        "version_normalized": "1.9.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FaaPz/Slim-PDO.git",
+            "reference": "2c3cf655e04859d0284a79997213616cb5e5282a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FaaPz/Slim-PDO/zipball/2c3cf655e04859d0284a79997213616cb5e5282a",
+            "reference": "2c3cf655e04859d0284a79997213616cb5e5282a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-05-29 10:56:40",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Slim\\PDO\\": "src/PDO/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabian de Laender",
+                "email": "fabian@faapz.nl",
+                "homepage": "http://faapz.nl",
+                "role": "Developer"
+            }
+        ],
+        "description": "PDO database library for Slim Framework",
+        "homepage": "https://github.com/FaaPz/Slim-PDO",
+        "keywords": [
+            "database",
+            "framework",
+            "pdo",
+            "slim"
+        ]
+    },
+    {
+        "name": "pentagonal/phpass",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pentagonal/phpass.git",
+            "reference": "195e19eafa6cba8eb33baf9b0a5e7d87f143096f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pentagonal/phpass/zipball/195e19eafa6cba8eb33baf9b0a5e7d87f143096f",
+            "reference": "195e19eafa6cba8eb33baf9b0a5e7d87f143096f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2016-03-31 21:11:26",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pentagonal\\Phpass": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Public Domain"
+        ],
+        "authors": [
+            {
+                "name": "Solar Designer",
+                "email": "solar@openwall.com",
+                "homepage": "http://openwall.com/phpass/"
+            }
+        ],
+        "description": "PHP password hashing library original by openwall PhPass",
+        "homepage": "http://github.com/pentagonal/phpass/",
+        "keywords": [
+            "blowfish",
+            "crypt",
+            "hash",
+            "password",
+            "security"
+        ]
+    },
+    {
+        "name": "palanik/corsslim",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/palanik/CorsSlim.git",
+            "reference": "ebd2bca1fcf4711a69db43f65bb63d10c7016030"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/palanik/CorsSlim/zipball/ebd2bca1fcf4711a69db43f65bb63d10c7016030",
+            "reference": "ebd2bca1fcf4711a69db43f65bb63d10c7016030",
+            "shasum": ""
+        },
+        "require": {
+            "slim/slim": ">=2.4.0 <3.0"
+        },
+        "time": "2015-12-16 23:57:06",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CorsSlim\\": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "palanik"
+            }
+        ],
+        "description": "Cross-origin resource sharing (CORS) middleware for PHP Slim.",
+        "homepage": "https://github.com/palanik/CorsSlim",
+        "keywords": [
+            "cors",
+            "corsslim",
+            "cross-origin",
+            "preflight",
+            "slim",
+            "slimphp"
+        ]
+    },
+    {
+        "name": "firebase/php-jwt",
+        "version": "v4.0.0",
+        "version_normalized": "4.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/firebase/php-jwt.git",
+            "reference": "dccf163dc8ed7ed6a00afc06c51ee5186a428d35"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/firebase/php-jwt/zipball/dccf163dc8ed7ed6a00afc06c51ee5186a428d35",
+            "reference": "dccf163dc8ed7ed6a00afc06c51ee5186a428d35",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-07-18 04:51:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Firebase\\JWT\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Neuman Vong",
+                "email": "neuman+pear@twilio.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Anant Narayanan",
+                "email": "anant@php.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+        "homepage": "https://github.com/firebase/php-jwt"
+    }
+]
